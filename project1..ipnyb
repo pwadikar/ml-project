@@ -1,0 +1,142 @@
+import numpy
+import scipy.io
+import math
+import geneNewData
+
+def normpdf(x, mean, sd):
+    var = float(sd)**2
+    temp = 1
+    
+    denom = (2*math.pi*var)**.5
+    num = math.exp(-(float(x)-float(mean))**2/(2*var))
+   
+      
+    
+    return float(num/denom)
+
+def main():
+    myID='2843'
+    geneNewData.geneData(myID)
+    Numpyfile0 = scipy.io.loadmat('digit0_stu_train'+myID+'.mat')
+    Numpyfile1 = scipy.io.loadmat('digit1_stu_train'+myID+'.mat')
+    Numpyfile2 = scipy.io.loadmat('digit0_testset'+'.mat')
+    Numpyfile3 = scipy.io.loadmat('digit1_testset'+'.mat')
+    train0 = Numpyfile0.get('target_img')
+    train1 = Numpyfile1.get('target_img')
+    test0 = Numpyfile2.get('target_img')
+    test1 = Numpyfile3.get('target_img')
+    print([len(train0),len(train1),len(test0),len(test1)])
+    print('Your trainset and testset are generated successfully!')
+   
+    feature_mean_mat0 = []
+    feature_std_mat0 = []
+    feature_mean_mat1 = []
+    feature_std_mat1 = []
+    
+    
+    sum_f1 =0
+    sum_f2=0
+    
+    sum_f1_1 =0
+    sum_f2_1 =0
+    
+    
+   
+    train0 = train0.reshape(train0.shape[0], train0.shape[1]*train0.shape[2])
+    train1 = train1.reshape(train1.shape[0], train1.shape[1]*train1.shape[2])
+    test0 = test0.reshape(test0.shape[0], test0.shape[1]*test0.shape[2])
+    test1 = test1.reshape(test1.shape[0], test1.shape[1]*test1.shape[2])
+    
+   
+        
+       
+    
+    
+    
+    f1_train0 = train0.mean(axis=1)
+    f2_train0 = train0.std(axis=1)
+    
+    
+    f1_train1 = train1.mean(axis=1)
+    f2_train1 = train1.std(axis=1)
+    
+    feature1_mean_0 = f1_train0.mean()
+    feature1_std_0 =  f1_train0.std()
+    feature2_mean_0 = f2_train0.mean()
+    feature2_std_0 =  f2_train0.std()
+    
+    feature1_mean_1 = f1_train1.mean()
+    feature1_std_1 =  f1_train1.std()
+    feature2_mean_1 = f2_train1.mean()
+    feature2_std_1 =  f2_train1.std()
+    
+    print(feature1_mean_0,feature1_std_0,feature2_mean_0,feature2_std_0,feature1_mean_1,feature1_std_1,feature2_mean_1,feature2_std_1)
+    
+    f1_test0 = test0.mean(axis=1)
+    f2_test0 = test0.std(axis=1)
+    
+    f1_test1 = test1.mean(axis=1)
+    f2_test1 = test1.std(axis=1)
+    p_x1_y0_t0=[]
+    p_x2_y0_t0=[]
+    p_x1_y1_t0=[]
+    p_x2_y1_t0=[]
+    
+    p_x1_y1_t1=[]
+    p_x2_y1_t1=[]
+    p_x1_y0_t1=[]
+    p_x2_y0_t1=[]
+    
+    p_x_given =0
+    print ('size',len(f1_test0))
+    for i in range(len(f1_test0)):
+        row = f1_test0[i]
+        row1 = f2_test0[i]
+        p_x1_y0_t0.append(normpdf(row,feature1_mean_0,feature1_std_0) )
+        p_x2_y0_t0.append(normpdf(row1,feature2_mean_0,feature2_std_0)) 
+        p_x1_y1_t0.append(normpdf(row,feature1_mean_1,feature1_std_1))
+        p_x2_y1_t0.append(normpdf(row1,feature2_mean_1,feature2_std_1))
+    
+    digit0=0
+    digit1=0
+    
+    for i in range(len(f1_test0)):
+        if ((p_x1_y0_t0[i]*p_x2_y0_t0[i]) > (p_x1_y1_t0[i]*p_x2_y1_t0[i])):
+            digit0 +=1
+    
+            
+        
+    for i in range(len(f1_test1)):
+        row = f1_test1[i]
+        row1 = f2_test1[i]
+        p_x1_y1_t1.append(normpdf(row,feature1_mean_1,feature1_std_1) )
+        p_x2_y1_t1.append(normpdf(row1,feature2_mean_1,feature2_std_1))
+        p_x1_y0_t1.append(normpdf(row,feature1_mean_0,feature1_std_0) )
+        p_x2_y0_t1.append(normpdf(row1,feature2_mean_0,feature2_std_0))   
+    
+    for i in range(len(f1_test1)):
+        if(p_x1_y1_t1[i]*p_x2_y1_t1[i])>(p_x1_y0_t1[i]*p_x2_y0_t1[i]):
+            digit1+=1
+            
+    print (len(p_x1_y0_t0))
+    print (len(p_x1_y1_t1))
+    print ('total predicted0', digit0)
+    print ('total predicted1', digit1)
+   
+    print('ratio0=', digit0/len(f1_test0))
+    print('ratio1=', digit1/len(f1_test1))
+    
+    print(feature1_mean_0,feature1_std_0**2,feature2_mean_0,feature2_std_0**2,feature1_mean_1,feature1_std_1**2,feature2_mean_1,feature2_std_1**2)
+    
+    print('===================================')
+    print('done') 
+    
+   
+
+    
+    pass
+
+
+
+if __name__ == '__main__':
+    main()
