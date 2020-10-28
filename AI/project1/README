@@ -1,1 +1,21 @@
 This is the directory for project 1 of AI course
+Objectives
+Students will be able to:
+
+Create Bayesian Networks.
+Determine inferences from Bayesian Networks.
+Model real-world problems in Bayesian Networks.
+
+Technology Requirements
+Linux (windows user may install virtual machines)
+
+Python 3.4 or higher
+
+Download and install pip and then install pgmpy:
+
+$ git clone https://github.com/pgmpy/pgmpy
+$ cd pgmpy/
+$ sudo pip install -r requirements.txt
+$ sudo python setup.py install
+
+Refer to the pdf for exercise details
