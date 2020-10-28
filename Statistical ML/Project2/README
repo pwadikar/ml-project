@@ -1,1 +1,17 @@
+In strategy 1 
+you are required to implement the K-means algorithm and
+apply your implementation on the given dataset (AllSamples.
+npy), which contains a set of 2-D points. You are required
+to implement the following strategy for choosing the initial
+cluster centers.
 
+In strategy 2
+you are required to implement the K-means algorithm and
+apply your implementation on the given dataset (AllSamples.
+npy), which contains a set of 2-D points. You are required
+to implement the following strategy for choosing the initial
+cluster centers.
+The Strategy2 is pick the first center randomly; for the ii-th
+center (ii¿1), choose a sample (among all possible samples)
+such that the average distance of this chosen one to all previous
+(ii-1) centers is maximal.
