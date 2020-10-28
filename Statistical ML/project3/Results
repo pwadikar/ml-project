@@ -1,0 +1,231 @@
+Epoch 0
+=== Iter:100 === Remain: 0 Hrs 1 Mins 12 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 1 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 57 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 47 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 39 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 38 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 32 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 10 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:0 Train Size:2000, Train Acc:33.950, Train Loss:1.385 ===
+=== Epoch:0 Test Size:400, Test Acc:35.500, Test Loss:1.384 ===
+Epoch 1
+=== Iter:100 === Remain: 0 Hrs 1 Mins 12 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 5 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 59 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 54 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 47 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 39 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 32 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:1 Train Size:2000, Train Acc:30.050, Train Loss:1.367 ===
+=== Epoch:1 Test Size:400, Test Acc:29.000, Test Loss:1.366 ===
+Epoch 2
+=== Iter:100 === Remain: 0 Hrs 1 Mins 13 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 1 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 59 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 46 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 40 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 32 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 28 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:2 Train Size:2000, Train Acc:46.950, Train Loss:1.061 ===
+=== Epoch:2 Test Size:400, Test Acc:50.250, Test Loss:1.039 ===
+Epoch 3
+=== Iter:100 === Remain: 0 Hrs 1 Mins 13 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 8 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 59 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 48 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 43 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 39 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 35 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:3 Train Size:2000, Train Acc:64.450, Train Loss:0.863 ===
+=== Epoch:3 Test Size:400, Test Acc:62.500, Test Loss:0.868 ===
+Epoch 4
+=== Iter:100 === Remain: 0 Hrs 1 Mins 13 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 10 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 57 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 50 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 49 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 40 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 33 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 28 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 26 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:4 Train Size:2000, Train Acc:69.400, Train Loss:0.754 ===
+=== Epoch:4 Test Size:400, Test Acc:67.250, Test Loss:0.798 ===
+Epoch 5
+=== Iter:100 === Remain: 0 Hrs 1 Mins 13 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 8 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 59 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 47 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 40 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 37 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 33 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 21 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:5 Train Size:2000, Train Acc:74.400, Train Loss:0.682 ===
+=== Epoch:5 Test Size:400, Test Acc:71.000, Test Loss:0.757 ===
+Epoch 6
+=== Iter:100 === Remain: 0 Hrs 1 Mins 12 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 4 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 57 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 55 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 50 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 48 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 40 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 33 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 21 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 18 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 14 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:6 Train Size:2000, Train Acc:76.700, Train Loss:0.626 ===
+=== Epoch:6 Test Size:400, Test Acc:71.750, Test Loss:0.717 ===
+Epoch 7
+=== Iter:100 === Remain: 0 Hrs 1 Mins 11 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 10 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:400 === Remain: 0 Hrs 1 Mins 3 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 57 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 54 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 51 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 50 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 40 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 36 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 34 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 25 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 22 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 19 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 15 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 11 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 7 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:7 Train Size:2000, Train Acc:78.000, Train Loss:0.590 ===
+=== Epoch:7 Test Size:400, Test Acc:72.000, Test Loss:0.693 ===
+Epoch 8
+=== Iter:100 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 4 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 2 Secs ===
+=== Iter:400 === Remain: 0 Hrs 0 Mins 58 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 54 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 52 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 47 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 45 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 41 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 39 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 34 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 30 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 27 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 23 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 20 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 17 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 13 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 10 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 6 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:8 Train Size:2000, Train Acc:79.150, Train Loss:0.561 ===
+=== Epoch:8 Test Size:400, Test Acc:73.250, Test Loss:0.674 ===
+Epoch 9
+=== Iter:100 === Remain: 0 Hrs 1 Mins 9 Secs ===
+=== Iter:200 === Remain: 0 Hrs 1 Mins 6 Secs ===
+=== Iter:300 === Remain: 0 Hrs 1 Mins 1 Secs ===
+=== Iter:400 === Remain: 0 Hrs 0 Mins 59 Secs ===
+=== Iter:500 === Remain: 0 Hrs 0 Mins 58 Secs ===
+=== Iter:600 === Remain: 0 Hrs 0 Mins 52 Secs ===
+=== Iter:700 === Remain: 0 Hrs 0 Mins 50 Secs ===
+=== Iter:800 === Remain: 0 Hrs 0 Mins 44 Secs ===
+=== Iter:900 === Remain: 0 Hrs 0 Mins 41 Secs ===
+=== Iter:1000 === Remain: 0 Hrs 0 Mins 38 Secs ===
+=== Iter:1100 === Remain: 0 Hrs 0 Mins 34 Secs ===
+=== Iter:1200 === Remain: 0 Hrs 0 Mins 30 Secs ===
+=== Iter:1300 === Remain: 0 Hrs 0 Mins 29 Secs ===
+=== Iter:1400 === Remain: 0 Hrs 0 Mins 24 Secs ===
+=== Iter:1500 === Remain: 0 Hrs 0 Mins 20 Secs ===
+=== Iter:1600 === Remain: 0 Hrs 0 Mins 17 Secs ===
+=== Iter:1700 === Remain: 0 Hrs 0 Mins 13 Secs ===
+=== Iter:1800 === Remain: 0 Hrs 0 Mins 10 Secs ===
+=== Iter:1900 === Remain: 0 Hrs 0 Mins 6 Secs ===
+=== Iter:2000 === Remain: 0 Hrs 0 Mins 3 Secs ===
+=== Epoch:9 Train Size:2000, Train Acc:80.100, Train Loss:0.536 ===
+=== Epoch:9 Test Size:400, Test Acc:74.250, Test Loss:0.661 ===
+<Figure size 640x480 with 1 Axes>
