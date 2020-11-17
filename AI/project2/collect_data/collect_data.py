@@ -59,7 +59,7 @@ def collect_training_data(total_actions):
     #columns are sensor values, the 6th is the action, and the 7th is collision.
     #Do not title the columns. Your .csv should look like the provided sample.
     import csv 
-    file = open('sample.csv', 'w+', newline ='') 
+    file = open('training_data.csv', 'w+', newline ='') 
       
     #writing the data into the file 
     with file:     
